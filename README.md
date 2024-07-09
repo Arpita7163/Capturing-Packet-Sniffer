@@ -4,27 +4,23 @@ This project captures and displays network packet statistics on a Linux system. 
 
 Features
 
-* Captures packets on a specified network interface.
-* Tracks statistics for TCP, UDP, ICMP, IP, and other packets.
-* Logs detailed packet information to a file.
-* Displays packet statistics in both text and graphical formats.
-* Supports multi-threaded data reading and writing.
+ Captures packets on a specified network interface . Tracks statistics for TCP, UDP, ICMP, IP, and other packets. Logs detailed packet information to a file. Displays packet statistics in both text and graphical formats. Supports multi-threaded data reading and writing.
   
 Requirements
 
-* Linux-based system
-* libpcap library
-* GCC (GNU Compiler Collection)
-* POSIX Threads (Pthreads)
+ Linux-based system
+ libpcap library
+ GCC (GNU Compiler Collection)
+ POSIX Threads (Pthreads)
 
-Installation
+INSTALLATION
 
 1. Install the necessary libraries:
 
 sudo apt-get update
 sudo apt-get install libpcap-dev gcc
 
-
+COMPLILATION
 2. Compile the project:
 
 gcc -o psc capPacketSniffer.c -lpcap -lpthread
