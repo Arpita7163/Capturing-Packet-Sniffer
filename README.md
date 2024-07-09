@@ -47,7 +47,7 @@ The text argument displays statistics in tabular format, while the graph argumen
 
 Command-Line Options
 
-* -i <network_interface>: Specify the network interface to capture packets from.
+ -i <network_interface>: Specify the network interface to capture packets from.
 
 Files
 
@@ -62,9 +62,9 @@ Packet details are logged in packet_logs.txt. Statistics are logged in packet_st
 
 Future Enhancements
 
-* Add support for more protocols.
-* Implement a web-based UI for real-time statistics display.
-* Add unit tests for individual components.
+ Add support for more protocols.
+ Implement a web-based UI for real-time statistics display.
+ Add unit tests for individual components.
 
 Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
